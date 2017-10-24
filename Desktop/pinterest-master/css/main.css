@@ -1,0 +1,57 @@
+header {
+  positiion : relative;
+}
+
+.menu-principal {
+position :relative;
+background: red;
+
+}
+    .item-menu-principal {
+      position :relative;
+      background: yellow;
+      border: 3px solid red ;
+     float: left;
+     width: 60px;
+
+    }
+        .caja-input {
+        position :absolute;
+          background: green;
+        float: left;
+        }
+
+        .caja-3elementos {
+        position: relative;
+        background: blue;
+        width : 200px;
+        }
+
+
+
+
+/* menu principal*/
+ul.menu-principal {
+  position: relative;
+  background: gray;
+}
+
+input {
+  background: pink;
+  width: 200px;
+}
+
+li.item-menu-principal{
+    text-decoration: none;
+    color: red;
+    position: absolute;
+    float: left ;
+    margin: 110px;
+}
+
+/*iconos*/
+span  {
+  position: absolute;
+  float: left;
+  width: 50px;
+}
