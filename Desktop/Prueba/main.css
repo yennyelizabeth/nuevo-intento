@@ -1,0 +1,7 @@
+ul#awesome {
+  color: red;
+}
+
+ul.programming-languages li.favorite span {
+  color: blue;
+}

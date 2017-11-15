@@ -1,0 +1,59 @@
+/*
+body {
+  background-color: red;
+} */
+
+* {
+  font font-family: courier ;
+
+}
+
+
+
+
+h2 {
+  color= green;
+}
+
+.bg-gato1 {
+    width: 256px; height: 256px;
+    background: url('../assets/img/gatos_sprites.png') -10px -10px;
+}
+
+
+.bg-gato2 {
+    width: 256px; height: 256px;
+    background: url('../assets/img/gatos_sprites.png') -286px -10px;
+}
+
+
+#container-image img {
+  width: 300px ;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+}
+
+p{
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+#purple {
+  color:purple ;
+}
+#red {
+  color: red;
+}
+
+#green {
+   color:green;
+}
+
+#blue{
+  color: blue;
+}
+
+.title {
+  font-family: sans-serif;
+  color: purple;
+}

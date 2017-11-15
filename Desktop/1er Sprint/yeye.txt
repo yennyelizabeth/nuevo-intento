@@ -1,0 +1,408 @@
+
+
+
+
+
+debugger
+
+var name = 'Michelle';
+console.log('Hola ' + name);
+console.log('Qué nombre tan largo tienes!');
+
+
+if (name.length >7 ) {
+console.log ('Qué nombre tan largo tienes!');
+}
+
+
+(option == 1) ? alert ( 'No tenemos ceviche, pero hay tacos al pastor') :
+(option == 2) ? alert ( 'No tenemos tacos al pastor, pero hay empanada chilena') :
+(option == 3) ? alert ( 'No tenemos empanada chilena') : alert (  ) ;
+
+
+git remote add origin https://github.com/yennyelizabeth/repositoriotest1.git  ( 1ero se ejecuta )
+git push -u
+
+
+
+-------------------------
+$ git commit
+On branch master
+
+Initial commit
+
+Untracked files:
+        main.js
+
+nothing added to commit but untracked files present
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Yenny/documents/git-test/.git/
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git commit
+On branch master
+
+Initial commit
+
+Untracked files:
+        main.js
+
+nothing added to commit but untracked files present
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git commit -m "agregando"
+On branch master
+
+Initial commit
+
+Untracked files:
+        main.js
+
+nothing added to commit but untracked files present
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ clear
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Yenny/documents/git-test/.git/
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ echo > main2.js
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        main.js
+        main2.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git commit -m "primer commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+        main.js
+        main2.js
+
+nothing added to commit but untracked files present
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        main.js
+        main2.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git remote -v
+origin  https://github.com/yennyelizabeth/repositoriotest1.git (fetch)
+origin  https://github.com/yennyelizabeth/repositoriotest1.git (push)
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git remote add origin https://github.com/yennyelizabeth/repositoriotest2.git
+fatal: remote origin already exists.
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/yennyelizabeth/repositoriotest1.git'
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git add main2.js
+warning: LF will be replaced by CRLF in main2.js.
+The file will have its original line endings in your working directory.
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git commit -m "segundo commit"
+[master (root-commit) 3d788dc] segundo commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 main2.js
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        main.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git remote -v
+origin  https://github.com/yennyelizabeth/repositoriotest1.git (fetch)
+origin  https://github.com/yennyelizabeth/repositoriotest1.git (push)
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git remote add origin https://github.com/yennyelizabeth/repositoriotest2.git
+fatal: remote origin already exists.
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git push -u origin master
+Username for 'https://github.com': yennyelizabeth
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 217 bytes | 108.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/yennyelizabeth/repositoriotest1.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   main2.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        main.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git add .
+warning: LF will be replaced by CRLF in main2.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in main.js.
+The file will have its original line endings in your working directory.
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git commit -m "tercer commit"
+[master eae41a5] tercer commit
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100644 main.js
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git push -u origin master
+Username for 'https://github.com': yennyelizabeth
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/yennyelizabeth/repositoriotest1.git/'
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+-----------------------------------------------
+
+$ git commit
+On branch master
+
+Initial commit
+
+Untracked files:
+        main.js
+
+nothing added to commit but untracked files present
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Yenny/documents/git-test/.git/
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git commit
+On branch master
+
+Initial commit
+
+Untracked files:
+        main.js
+
+nothing added to commit but untracked files present
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git commit -m "agregando"
+On branch master
+
+Initial commit
+
+Untracked files:
+        main.js
+
+nothing added to commit but untracked files present
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ clear
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Yenny/documents/git-test/.git/
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ echo > main2.js
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        main.js
+        main2.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git commit -m "primer commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+        main.js
+        main2.js
+
+nothing added to commit but untracked files present
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        main.js
+        main2.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git remote -v
+origin  https://github.com/yennyelizabeth/repositoriotest1.git (fetch)
+origin  https://github.com/yennyelizabeth/repositoriotest1.git (push)
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git remote add origin https://github.com/yennyelizabeth/repositoriotest2.git
+fatal: remote origin already exists.
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/yennyelizabeth/repositoriotest1.git'
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git add main2.js
+warning: LF will be replaced by CRLF in main2.js.
+The file will have its original line endings in your working directory.
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git commit -m "segundo commit"
+[master (root-commit) 3d788dc] segundo commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 main2.js
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        main.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git remote -v
+origin  https://github.com/yennyelizabeth/repositoriotest1.git (fetch)
+origin  https://github.com/yennyelizabeth/repositoriotest1.git (push)
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git remote add origin https://github.com/yennyelizabeth/repositoriotest2.git
+fatal: remote origin already exists.
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git push -u origin master
+Username for 'https://github.com': yennyelizabeth
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 217 bytes | 108.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/yennyelizabeth/repositoriotest1.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   main2.js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        main.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git add .
+warning: LF will be replaced by CRLF in main2.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in main.js.
+The file will have its original line endings in your working directory.
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git commit -m "tercer commit"
+[master eae41a5] tercer commit
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100644 main.js
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ git push -u origin master
+Username for 'https://github.com': yennyelizabeth
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/yennyelizabeth/repositoriotest1.git/'
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$ ^C
+
+Yenny@DESKTOP-J5J72E4 MINGW64 ~/documents/git-test (master)
+$

@@ -1,0 +1,12 @@
+body {
+  font-FamiLy: sans-serif;
+}
+
+H1{
+  COLOR:BLUE;
+}
+
+
+P::FIRST-LETTER {
+  color:red;
+}
