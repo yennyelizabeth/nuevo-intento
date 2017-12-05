@@ -1,0 +1,79 @@
+objeto json
+dividir - mejorar - logica desarrollar mejor
+comandos de github
+git checkout 'version-1'
+
+1ero la data
+como accedemos a la data
+data.AQP
+data["AQP"]
+data["AQP"]["2016-2"] = {students: Array(15), ratings: Array(4)}
+
+Estructura auxiliar a los datos : 
+concatenada los datos fijos
+los datos diferentes si son dinámicos
+definir variables con montos fijos (parametros)
+
+se podía modificar la data : al objeto y ponerle el acronico de nombre de sede
+
+center[i].key  = "AQP"
+data["AQP"] = {2016-2 : { } .... }
+
+argumentos de funcion 
+--------------------------
+1era la logica
+2do las funciones
+3ero mandarlo a las vistas
+---------------------------
+
+{
+objEnrollment.studentsCurrentEnrolled = 7
+objEnrollment.studentsDropout = 53.33
+}
+
+toFixed(2) ... corta decimales y convierte a string
+
+opcionales van a la derecha
+obligatorios a la izquierda
+
+function suma (a, b=1) {
+return a+b;
+}
+suma() ;
+
+
+template: estructura de html, 
+** consume mas de memoria 
+ donde se reemplaze __photo__
+ 
+for each  = 
+for i = 
+
+******
+jsbin.com/ ( para practicar js , html )
+
+for each ( parametros)
+elementos del arreglo, index, el mismo areglo
+
+students.forEach(function(item, index, array) {
+console.log(
+}) 
+
+la siguiente version ( ) nueva -
+=> 
+
+ES6 JAVASCRIPT
+function aurora() {
+}
+
+var aurora = (_) => {
+} ;
+
+Metodos para arreglos javascript
+MAP
+REDUCE
+
+
+
+
+
