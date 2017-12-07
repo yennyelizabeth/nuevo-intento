@@ -1,0 +1,46 @@
+javascript deep dive
+single page applications
+integrations con back end
+paradigmas de programacion
+front end frameworks % build tools
+soft skills
+
+ux design intro
+investigacion
+sintesis y analisis
+prototipado
+diseño visual
+soft skills
+
+notas 
+unit - columnas
+gutters- los espacios entre columnas
+field  divisiones horizontales 
+
+jerarquia
+1 container define ancho máximo del diseño
+ a. row 
+    i. columna
+
+
+1era sesion de clase
+ejercicio 1 construir un grid desde cero
+
+960.gs
+
+(n/12)*100
+xs mobil
+sm tablets
+md laptops
+
+0 a 767    -->xs ( movil )
+768 a 791  -->sm ( tablet )
+792 a      -->md (laptop)
+
+
+
+
+
+
+
+
